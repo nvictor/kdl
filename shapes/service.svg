@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340">
+  <!-- Markers -->
+  <defs>
+    <marker
+      id="arrow"
+      markerWidth="10"
+      markerHeight="10"
+      refX="10"
+      refY="5"
+      orient="auto"
+      markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black" />
+    </marker>
+  </defs>
+  <g>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="8%" height="8%" x="24%" y="12%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="28%" y="16%">8080</text>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="8%" height="8%" x="68%" y="12%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="72%" y="16%">1443</text>
+    <!-- Service -->
+    <rect fill="khaki" rx="5%" ry="5%"  width="60%" height="30%" x="20%" y="20%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="35%">Service</text>
+    <!-- Type -->
+    <rect fill="khaki" stroke="black" width="8%" height="8%" x="12%" y="30%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="16%" y="34%">CIP</text>
+    <!-- Arrow -->
+    <line stroke="black" stroke-width="2" x1="50%" y1="50%" x2="50%" y2="80%" marker-end="url(#arrow)" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="60%" y="65%">to pods ports</text>
+  </g>
+</svg>
