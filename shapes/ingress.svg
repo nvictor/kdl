@@ -14,7 +14,7 @@
   </defs>
   <g>
     <!-- Ingress -->
-    <rect fill="khaki" width="60%" height="25%" x="20%" y="20%" />
+    <rect fill="khaki" stroke="black" width="60%" height="25%" x="20%" y="20%" />
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="30%">http(s)://hostname</text>
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="35%">route name</text>
     <!-- Arrow -->

@@ -43,3 +43,7 @@ The KDL was [introduced](https://www.redhat.com/en/blog/kdl-notation-kubernetes-
 NOTE: For simplicity sake, I am keeping a rectangular shape for ingresses.
 
 ![ingress](shapes/ingress.svg)
+
+### Storage
+
+![storage](shapes/storage.svg)
