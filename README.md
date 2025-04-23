@@ -47,3 +47,9 @@ NOTE: For simplicity sake, I am keeping a rectangular shape for ingresses.
 ### Storage
 
 ![storage](shapes/storage.svg)
+
+## Examples
+
+### Cafe
+
+![examples](examples/cafe.svg)

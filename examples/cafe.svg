@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
+  <!-- Markers -->
+  <defs>
+    <marker
+      id="arrow"
+      markerWidth="10"
+      markerHeight="10"
+      refX="10"
+      refY="5"
+      orient="auto"
+      markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black" />
+    </marker>
+  </defs>
+
+  <!-- Cluster -->
+  <rect fill="salmon" rx="1.8%" ry="3%"  width="70%" height="65%" x="5%" y="5%" />
+
+  <!-- Legend -->
+  <g>
+    <text font-size="0.8em" font-family="sans-serif" font-weight="bold" x="8%" y="10%">Legend:</text>
+
+    <rect fill="khaki" stroke="black" width="2.5%" height="2.5%" x="8%" y="12%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="13.5%">Networking</text>
+    
+    <rect fill="palegreen" stroke="black" width="2.5%" height="2.5%" x="8%" y="16%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="17.5%">Pod Resources</text>
+
+    <rect fill="limegreen" stroke="black" width="2.5%" height="2.5%" x="8%" y="20%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="21.5%">Container Resources</text>
+    
+    <rect fill="darkgreen" stroke="black" width="2.5%" height="2.5%" x="8%" y="24%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="25.5%">Deployment Configuration</text>
+
+    <rect fill="dodgerblue" stroke="black" width="2.5%" height="2.5%" x="8%" y="28%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="29.5%">Storage &amp; Config Resources</text>
+  </g>
+
+  <!-- Ingress -->
+  <g>
+    <!-- Ingress -->
+    <rect fill="khaki" stroke="black" width="30%" height="10%" x="35%" y="0%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="4%">Ingress</text>
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="6%">/tea, /coffee</text>
+    <!-- Arrows -->
+    <line stroke="black" stroke-width="2" x1="42%" y1="10%" x2="42%" y2="17%" marker-end="url(#arrow)" />
+    <line stroke="black" stroke-width="2" x1="58%" y1="10%" x2="58%" y2="17%" marker-end="url(#arrow)" />
+  </g>
+
+  <!-- Services -->
+  <g>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="4%" height="3%" x="40%" y="17%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="42%" y="19%">8080</text>
+    <!-- Tea service -->
+    <rect fill="khaki" stroke="black" rx="1%" ry="2%"  width="15%" height="10%" x="30%" y="20%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="37.5%" y="25%">coffee-service</text>
+    <!-- Type -->
+    <rect fill="khaki" stroke="black" width="3%" height="3%" x="27%" y="23%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="28.5%" y="25%">CIP</text>
+    <!-- Arrow -->
+    <line stroke="black" stroke-width="2" x1="37.5%" y1="30%" x2="37.5%" y2="42%" marker-end="url(#arrow)" />
+  </g>
+  <g>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="4%" height="3%" x="56%" y="17%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="58%" y="19%">8080</text>
+    <!-- Tea service -->
+    <rect fill="khaki" stroke="black" rx="1%" ry="2%"  width="15%" height="10%" x="55%" y="20%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="62.5%" y="25%">tea-service</text>
+    <!-- Type -->
+    <rect fill="khaki" stroke="black" width="3%" height="3%" x="52%" y="23%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="53.5%" y="25%">CIP</text>
+    <!-- Arrow -->
+    <line stroke="black" stroke-width="2" x1="62.5%" y1="30%" x2="62.5%" y2="42%" marker-end="url(#arrow)" />
+  </g>
+
+  <!-- Pods -->
+  <g>
+    <rect fill="palegreen" stroke="black" width="20%" height="18%" x="27.5%" y="45%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="37.5%" y="47.5%">Coffee pod</text>
+    <!-- Container -->
+    <rect fill="limegreen" stroke="black" width="7%" height="10%" x="29%" y="50%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="32.5%" y="55%">Container</text>
+    <!-- Container -->
+    <rect fill="limegreen" stroke="black" width="7%" height="10%" x="39%" y="50%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="42.5%" y="55%">Container</text>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="4%" height="3%" x="35.5%" y="42%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="37.5%" y="44%">8080</text>
+    <!-- Controller -->
+    <rect fill="darkgreen" stroke="black" width="2.5%" height="3%" x="25%" y="48%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="26.5%" y="49.5%">D</text>
+    <!-- Replicas -->
+    <rect fill="darkgreen" stroke="black" width="2.5%" height="3%" x="25%" y="58%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="26.5%" y="59.5%">2</text>
+  </g>
+  <g>
+    <rect fill="palegreen" stroke="black" width="20%" height="18%" x="52.5%" y="45%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="62.5%" y="47.5%">Tea pod</text>
+    <!-- Container -->
+    <rect fill="limegreen" stroke="black" width="7%" height="10%" x="54%" y="50%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="57.5%" y="55%">Container</text>
+    <!-- Container -->
+    <rect fill="limegreen" stroke="black" width="7%" height="10%" x="64%" y="50%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="67.5%" y="55%">Container</text>
+    <!-- Port -->
+    <rect fill="khaki" stroke="black" width="4%" height="3%" x="60.5%" y="42%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="62.5%" y="44%">8080</text>
+    <!-- Controller -->
+    <rect fill="darkgreen" stroke="black" width="2.5%" height="3%" x="50%" y="48%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="51.5%" y="49.5%">D</text>
+    <!-- Replicas -->
+    <rect fill="darkgreen" stroke="black" width="2.5%" height="3%" x="50%" y="58%" />
+    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="51.5%" y="59.5%">2</text>
+  </g>
+</svg>
