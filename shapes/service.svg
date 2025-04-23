@@ -20,7 +20,7 @@
     <rect fill="khaki" stroke="black" width="8%" height="8%" x="68%" y="12%" />
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="72%" y="16%">1443</text>
     <!-- Service -->
-    <rect fill="khaki" rx="5%" ry="5%"  width="60%" height="30%" x="20%" y="20%" />
+    <rect fill="khaki" stroke="black" rx="5%" ry="5%"  width="60%" height="30%" x="20%" y="20%" />
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="50%" y="35%">Service</text>
     <!-- Type -->
     <rect fill="khaki" stroke="black" width="8%" height="8%" x="12%" y="30%" />
