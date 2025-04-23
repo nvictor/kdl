@@ -81,10 +81,12 @@
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="37.5%" y="47.5%">Coffee pod</text>
     <!-- Container -->
     <rect fill="limegreen" stroke="black" width="7%" height="10%" x="29%" y="50%" />
-    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="32.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="32.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="32.5%" y="57%">pleshakov/coffee</text>
     <!-- Container -->
     <rect fill="limegreen" stroke="black" width="7%" height="10%" x="39%" y="50%" />
-    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="42.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="42.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="42.5%" y="57%">pleshakov/coffee</text>
     <!-- Port -->
     <rect fill="khaki" stroke="black" width="4%" height="3%" x="35.5%" y="42%" />
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="37.5%" y="44%">8080</text>
@@ -100,10 +102,12 @@
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="62.5%" y="47.5%">Tea pod</text>
     <!-- Container -->
     <rect fill="limegreen" stroke="black" width="7%" height="10%" x="54%" y="50%" />
-    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="57.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="57.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="57.5%" y="57%">pleshakov/tea</text>
     <!-- Container -->
     <rect fill="limegreen" stroke="black" width="7%" height="10%" x="64%" y="50%" />
-    <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="67.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="67.5%" y="55%">Container</text>
+    <text font-size="0.6em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="67.5%" y="57%">pleshakov/tea</text>
     <!-- Port -->
     <rect fill="khaki" stroke="black" width="4%" height="3%" x="60.5%" y="42%" />
     <text font-size="0.8em" font-family="sans-serif" text-anchor="middle" dominant-baseline="middle" x="62.5%" y="44%">8080</text>
