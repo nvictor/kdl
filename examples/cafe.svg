@@ -32,8 +32,8 @@
     <rect fill="darkgreen" stroke="black" width="2.5%" height="2.5%" x="8%" y="24%" />
     <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="25.5%">Deployment Configuration</text>
 
-    <rect fill="dodgerblue" stroke="black" width="2.5%" height="2.5%" x="8%" y="28%" />
-    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="29.5%">Storage &amp; Config Resources</text>
+    <!--<rect fill="dodgerblue" stroke="black" width="2.5%" height="2.5%" x="8%" y="28%" />
+    <text font-size="0.8em" font-family="sans-serif" dominant-baseline="middle" x="11.5%" y="29.5%">Storage &amp; Config Resources</text>-->
   </g>
 
   <!-- Ingress -->
